@@ -1,12 +1,14 @@
 import React from "react";
-import { TextInput, Button, Text, View } from "react-native";
+import {Text, View } from "react-native";
+import Greet from "./Greet";
 
 export default function LoginForm() {
     return (
         <View>
-            <TextInput placeholder="Email" />
-            <TextInput placeholder="Password"/>
-            <Button title='Send' onPress={console.log('Sent')} />
+            <Text>This is a React Native course</Text>
+            <Greet user={'User1'}/>
+            <Greet user={'User2'}/>
+            <Greet user={'User3'}/>
         </View>
     )
 }
