@@ -6,9 +6,9 @@ export default function LoginForm() {
     return (
         <View>
             <Text>This is a React Native course</Text>
-            <Greet user={'User1'}/>
-            <Greet user={'User2'}/>
-            <Greet user={'User3'}/>
+            <Greet />
+            {/* <Greet user={'User2'}/> */}
+            {/* <Greet user={'User3'}/> */}
         </View>
     )
 }
